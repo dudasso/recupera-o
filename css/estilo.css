@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1D4D4;
+    color: #790C5A;
+}
+
+.cabecalho__banner {
+    text-align: center;
+    background-color: #0c090a;
+    padding: 5%;
+}
+
+.cabecalho__banner__texto {
+    font-size: 1.2rem;
+    color: #F1D4D4;
+    padding-top: 1em;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 1em;
+}
+
+.apresentacao {
+  padding: 3% 15%;
+}
+
+.apresentacao__sobre {
+    padding: 3em 0;
+    width: 940px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.apresentacao__sobre p {
+    margin: 0 0 1em;
+}
+
+#missao{
+  font-size: 1.3rem;
+}
+
+.conteudo-beneficios {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.lista-beneficios__itens {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+form {
+  width: 600px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+form label,
+form legend {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.input-padrao {
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 100%;
+  border-color: #cc0e74;
+  border-radius: 12px;
+  color: #cc0e74;
+}
+
+.botao{
+  background: #cc0e74;
+  color: #ffff;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #cc0e74;
+  color: #f1d4d4;
+  padding: 18px;
+}
