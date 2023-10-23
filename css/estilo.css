@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand Family=Montserrat:wight@400;600 family=Open+Sans:wght@400;600 &display=swap');
 
 * {
     margin: 0;
@@ -14,7 +14,7 @@ body {
 
 .cabecalho__banner {
     text-align: center;
-    background-color: #0c090a;
+    background-color: #E6739F;
     padding: 5%;
 }
 
@@ -89,7 +89,7 @@ form legend {
   color: #cc0e74;
 }
 
-.botao{
+.botao {
   background: #cc0e74;
   color: #ffff;
   font-weight: bold;

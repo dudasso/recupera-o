@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="/css/estilo.css">
   <title>Formulario</title>
 </head>
 <body>
-
+  
   <h1>Insira as suas informações para criar uma conta</h1>
-<form>
+  <form>
     <label for="usuario">Nome de usuário:</label><br>
-    <input type="text" id="usuario" name="usuario"><br>
+    <input type="text" name="usuario" id="usuario" class="input-padrao" required placeholder="Dudasso"><br>
     <label for="senha">Senha:</label><br>
-    <input type="password" id="senha" name="senha">
-    <input type="submit" value="Criar conta">
+    <input type="password" name="senha" id="senha" class="input-padrao" required placeholder="dfdbfmk123"><br>
+    <input type="submit" value="Criar conta" class="input-padrao botao">
 
   </form>
+  <script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>
